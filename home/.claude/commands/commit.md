@@ -1,45 +1,45 @@
-# Commit Changes
+# 변경사항 커밋
 
-You are tasked with creating git commits for the changes made during this session.
+이 세션에서 이루어진 변경사항에 대해 git 커밋을 생성하는 작업을 수행합니다.
 
-## Process:
+## 과정:
 
-1. **Think about what changed:**
+1. **변경된 내용 파악:**
 
-   - Review the conversation history and understand what was accomplished
-   - Run `git status` to see current changes
-   - Run `git diff` to understand the modifications
-   - Consider whether changes should be one commit or multiple logical commits
+   - 대화 기록을 검토하고 무엇이 달성되었는지 이해
+   - `git status`를 실행하여 현재 변경사항 확인
+   - `git diff`를 실행하여 수정사항 이해
+   - 변경사항이 하나의 커밋인지 여러 논리적 커밋인지 고려
 
-2. **Plan your commit(s):**
+2. **커밋 계획:**
 
-   - Identify which files belong together
-   - Draft clear, descriptive commit messages
-   - Use imperative mood in commit messages
-   - Focus on why the changes were made, not just what
+   - 함께 속하는 파일들 식별
+   - 명확하고 설명적인 커밋 메시지 초안 작성
+   - 커밋 메시지에서 명령형 어조 사용
+   - 단순히 무엇을 했는지가 아니라 왜 변경했는지에 집중
 
-3. **Present your plan to the user:**
+3. **사용자에게 계획 제시:**
 
-   - List the files you plan to add for each commit
-   - Show the commit message(s) you'll use
-   - Ask: "I plan to create [N] commit(s) with these changes. Shall I proceed?"
+   - 각 커밋에 추가할 계획인 파일들 나열
+   - 사용할 커밋 메시지(들) 표시
+   - 질문: "이러한 변경사항으로 [N]개의 커밋을 생성할 계획입니다. 진행할까요?"
 
-4. **Execute upon confirmation:**
-   - Use `git add` with specific files (never use `-A` or `.`)
-   - Create commits with your planned messages
-   - Show the result with `git log --oneline -n [number]`
+4. **확인 후 실행:**
+   - 특정 파일들과 함께 `git add` 사용 (`-A`나 `.` 절대 사용 금지)
+   - 계획된 메시지로 커밋 생성
+   - `git log --oneline -n [number]`로 결과 표시
 
-## Important:
+## 중요사항:
 
-- **NEVER add co-author information or Claude attribution**
-- Commits should be authored solely by the user
-- Do not include any "Generated with Claude" messages
-- Do not add "Co-Authored-By" lines
-- Write commit messages as if the user wrote them
+- **공동 작성자 정보나 Claude 출처 표시를 절대 추가하지 말 것**
+- 커밋은 오직 사용자에 의해서만 작성되어야 함
+- "Generated with Claude" 메시지 포함 금지
+- "Co-Authored-By" 라인 추가 금지
+- 사용자가 작성한 것처럼 커밋 메시지 작성
 
-## Remember:
+## 기억사항:
 
-- You have the full context of what was done in this session
-- Group related changes together
-- Keep commits focused and atomic when possible
-- The user trusts your judgment - they asked you to commit
+- 이 세션에서 수행된 작업에 대한 전체 컨텍스트를 보유하고 있음
+- 관련 변경사항들을 함께 그룹화
+- 가능한 한 커밋을 집중적이고 원자적으로 유지
+- 사용자가 커밋을 요청했다는 것은 당신의 판단을 신뢰한다는 의미
