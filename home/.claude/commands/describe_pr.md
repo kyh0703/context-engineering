@@ -1,80 +1,80 @@
-# Generate PR Description
+# PR 설명 생성
 
-You are tasked with generating a comprehensive pull request description following the repository's standard template.
+저장소의 표준 템플릿에 따라 포괄적인 풀 리퀘스트 설명을 생성하는 작업입니다.
 
-## Steps to follow:
+## 따라야 할 단계:
 
-1. **Read the PR description template:**
+1. **PR 설명 템플릿 읽기:**
 
-   - First, check if `thoughts/shared/pr_description.md` exists
-   - If it doesn't exist, inform the user that their `humanlayer thoughts` setup is incomplete and they need to create a PR description template at `thoughts/shared/pr_description.md`
-   - Read the template carefully to understand all sections and requirements
+   - 먼저 `thoughts/shared/pr_description.md`가 존재하는지 확인
+   - 존재하지 않으면 사용자의 `humanlayer thoughts` 설정이 불완전하며 `thoughts/shared/pr_description.md`에 PR 설명 템플릿을 생성해야 한다고 알림
+   - 모든 섹션과 요구사항을 이해하기 위해 템플릿을 주의 깊게 읽기
 
-2. **Identify the PR to describe:**
+2. **설명할 PR 식별:**
 
-   - Check if the current branch has an associated PR: `gh pr view --json url,number,title,state 2>/dev/null`
-   - If no PR exists for the current branch, or if on main/master, list open PRs: `gh pr list --limit 10 --json number,title,headRefName,author`
-   - Ask the user which PR they want to describe
+   - 현재 브랜치에 연결된 PR이 있는지 확인: `gh pr view --json url,number,title,state 2>/dev/null`
+   - 현재 브랜치에 PR이 없거나 main/master에 있다면, 열린 PR 목록 표시: `gh pr list --limit 10 --json number,title,headRefName,author`
+   - 사용자에게 어떤 PR을 설명하고 싶은지 문의
 
-3. **Check for existing description:**
+3. **기존 설명 확인:**
 
-   - Check if `thoughts/shared/prs/{number}_description.md` already exists
-   - If it exists, read it and inform the user you'll be updating it
-   - Consider what has changed since the last description was written
+   - `thoughts/shared/prs/{number}_description.md`가 이미 존재하는지 확인
+   - 존재한다면 읽고 업데이트할 것이라고 사용자에게 알림
+   - 마지막 설명이 작성된 이후 무엇이 변경되었는지 고려
 
-4. **Gather comprehensive PR information:**
+4. **포괄적인 PR 정보 수집:**
 
-   - Get the full PR diff: `gh pr diff {number}`
-   - If you get an error about no default remote repository, instruct the user to run `gh repo set-default` and select the appropriate repository
-   - Get commit history: `gh pr view {number} --json commits`
-   - Review the base branch: `gh pr view {number} --json baseRefName`
-   - Get PR metadata: `gh pr view {number} --json url,title,number,state`
+   - 전체 PR diff 가져오기: `gh pr diff {number}`
+   - 기본 원격 저장소가 없다는 오류가 발생하면, 사용자에게 `gh repo set-default`를 실행하고 적절한 저장소를 선택하라고 지시
+   - 커밋 히스토리 가져오기: `gh pr view {number} --json commits`
+   - 베이스 브랜치 검토: `gh pr view {number} --json baseRefName`
+   - PR 메타데이터 가져오기: `gh pr view {number} --json url,title,number,state`
 
-5. **Analyze the changes thoroughly:** (ultrathink about the code changes, their architectural implications, and potential impacts)
+5. **변경사항을 철저히 분석:** (코드 변경사항, 아키텍처적 영향, 잠재적 임팩트에 대해 깊이 생각하기)
 
-   - Read through the entire diff carefully
-   - For context, read any files that are referenced but not shown in the diff
-   - Understand the purpose and impact of each change
-   - Identify user-facing changes vs internal implementation details
-   - Look for breaking changes or migration requirements
+   - 전체 diff를 주의 깊게 검토
+   - 맥락을 위해 diff에는 표시되지 않지만 참조되는 파일들을 읽기
+   - 각 변경사항의 목적과 영향 이해
+   - 사용자 대면 변경사항 vs 내부 구현 세부사항 식별
+   - 브레이킹 체인지나 마이그레이션 요구사항 찾기
 
-6. **Handle verification requirements:**
+6. **검증 요구사항 처리:**
 
-   - Look for any checklist items in the "How to verify it" section of the template
-   - For each verification step:
-     - If it's a command you can run (like `make check test`, `npm test`, etc.), run it
-     - If it passes, mark the checkbox as checked: `- [x]`
-     - If it fails, keep it unchecked and note what failed: `- [ ]` with explanation
-     - If it requires manual testing (UI interactions, external services), leave unchecked and note for user
-   - Document any verification steps you couldn't complete
+   - 템플릿의 "검증 방법" 섹션에서 체크리스트 항목 찾기
+   - 각 검증 단계에 대해:
+     - 실행할 수 있는 명령(`make check test`, `npm test` 등)이라면 실행하기
+     - 통과하면 체크박스를 체크됨으로 표시: `- [x]`
+     - 실패하면 체크되지 않은 상태로 두고 실패 내용 기록: `- [ ]` 설명과 함께
+     - 수동 테스트(UI 상호작용, 외부 서비스)가 필요하면 체크되지 않은 상태로 두고 사용자를 위해 기록
+   - 완료할 수 없는 검증 단계들을 문서화
 
-7. **Generate the description:**
+7. **설명 생성:**
 
-   - Fill out each section from the template thoroughly:
-     - Answer each question/section based on your analysis
-     - Be specific about problems solved and changes made
-     - Focus on user impact where relevant
-     - Include technical details in appropriate sections
-     - Write a concise changelog entry
-   - Ensure all checklist items are addressed (checked or explained)
+   - 템플릿의 각 섹션을 철저하게 작성:
+     - 분석을 바탕으로 각 질문/섹션에 답변
+     - 해결된 문제와 변경사항에 대해 구체적으로 기술
+     - 관련이 있는 곳에서 사용자 영향에 집중
+     - 적절한 섹션에 기술적 세부사항 포함
+     - 간결한 변경 로그 항목 작성
+   - 모든 체크리스트 항목이 다뤄졌는지 확인 (체크되거나 설명됨)
 
-8. **Save and sync the description:**
+8. **설명 저장 및 동기화:**
 
-   - Write the completed description to `thoughts/shared/prs/{number}_description.md`
-   - Run `humanlayer thoughts sync` to sync the thoughts directory
-   - Show the user the generated description
+   - 완성된 설명을 `thoughts/shared/prs/{number}_description.md`에 작성
+   - `humanlayer thoughts sync`를 실행하여 thoughts 디렉토리 동기화
+   - 사용자에게 생성된 설명 보여주기
 
-9. **Update the PR:**
-   - Update the PR description directly: `gh pr edit {number} --body-file thoughts/shared/prs/{number}_description.md`
-   - Confirm the update was successful
-   - If any verification steps remain unchecked, remind the user to complete them before merging
+9. **PR 업데이트:**
+   - PR 설명을 직접 업데이트: `gh pr edit {number} --body-file thoughts/shared/prs/{number}_description.md`
+   - 업데이트가 성공했는지 확인
+   - 체크되지 않은 검증 단계가 남아있다면, 사용자에게 병합 전에 완료하라고 상기시키기
 
-## Important notes:
+## 중요한 참고사항:
 
-- This command works across different repositories - always read the local template
-- Be thorough but concise - descriptions should be scannable
-- Focus on the "why" as much as the "what"
-- Include any breaking changes or migration notes prominently
-- If the PR touches multiple components, organize the description accordingly
-- Always attempt to run verification commands when possible
-- Clearly communicate which verification steps need manual testing
+- 이 명령은 다른 저장소에서도 작동함 - 항상 로컬 템플릿을 읽어야 함
+- 철저하되 간결하게 - 설명은 훑어보기 쉬워야 함
+- "무엇"만큼 "왜"에도 집중
+- 브레이킹 체인지나 마이그레이션 노트를 눈에 띄게 포함
+- PR이 여러 컴포넌트에 영향을 주면 그에 따라 설명을 구성
+- 가능한 경우 항상 검증 명령을 실행하려고 시도
+- 수동 테스트가 필요한 검증 단계를 명확하게 전달
