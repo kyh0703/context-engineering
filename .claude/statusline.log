@@ -1,0 +1,35 @@
+[2025-09-09 14:38:30] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 14:38:30] Script called from: /d/Project/context-engineering
+[2025-09-09 14:38:30] Script path: .claude/statusline.sh
+[2025-09-09 14:38:30] Input received: 621 characters
+[2025-09-09 14:38:30] Input:
+{
+  "session_id": "fa758001-d7c4-44c0-8db8-386d77a57521",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\fa758001-d7c4-44c0-8db8-386d77a57521.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.103",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0,
+    "total_duration_ms": 3459,
+    "total_api_duration_ms": 0,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 14:38:30] Using jq for JSON parsing
+---
+[2025-09-09 14:38:30] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0, cost_ph=0.00, tokens=, tpm=, session_pct=0
+[2025-09-09 14:38:30] Statusline output completed successfully
+[2025-09-09 14:38:30] =========================================
