@@ -2164,3 +2164,398 @@
 }
 [2025-09-09 15:30:06] Using jq for JSON parsing
 ---
+[2025-09-09 15:30:06] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0.2844202999999999, cost_ph=5.99, tokens=, tpm=, session_pct=0
+[2025-09-09 15:30:06] Statusline output completed successfully
+[2025-09-09 15:30:06] =========================================
+[2025-09-09 15:30:14] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:30:14] Script called from: /d/Project/context-engineering
+[2025-09-09 15:30:14] Script path: .claude/statusline.sh
+[2025-09-09 15:30:14] Input received: 644 characters
+[2025-09-09 15:30:14] Input:
+{
+  "session_id": "889d00ca-5218-4921-86e8-08b28ebd6a20",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\889d00ca-5218-4921-86e8-08b28ebd6a20.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.2855362999999999,
+    "total_duration_ms": 178477,
+    "total_api_duration_ms": 55470,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:30:14] Using jq for JSON parsing
+---
+[2025-09-09 15:30:14] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:30:14] Script called from: /d/Project/context-engineering
+[2025-09-09 15:30:14] Script path: .claude/statusline.sh
+[2025-09-09 15:30:14] Input received: 644 characters
+[2025-09-09 15:30:14] Input:
+{
+  "session_id": "889d00ca-5218-4921-86e8-08b28ebd6a20",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\889d00ca-5218-4921-86e8-08b28ebd6a20.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.2855362999999999,
+    "total_duration_ms": 178790,
+    "total_api_duration_ms": 55470,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:30:14] Using jq for JSON parsing
+---
+[2025-09-09 15:30:14] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0.2855362999999999, cost_ph=5.75, tokens=, tpm=, session_pct=0
+[2025-09-09 15:30:14] Statusline output completed successfully
+[2025-09-09 15:30:14] =========================================
+[2025-09-09 15:30:21] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:30:21] Script called from: /d/Project/context-engineering
+[2025-09-09 15:30:21] Script path: .claude/statusline.sh
+[2025-09-09 15:30:21] Input received: 644 characters
+[2025-09-09 15:30:21] Input:
+{
+  "session_id": "889d00ca-5218-4921-86e8-08b28ebd6a20",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\889d00ca-5218-4921-86e8-08b28ebd6a20.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3027551999999999,
+    "total_duration_ms": 185625,
+    "total_api_duration_ms": 62113,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:30:21] Using jq for JSON parsing
+---
+[2025-09-09 15:30:21] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0.3027551999999999, cost_ph=5.87, tokens=, tpm=, session_pct=0
+[2025-09-09 15:30:21] Statusline output completed successfully
+[2025-09-09 15:30:21] =========================================
+[2025-09-09 15:53:39] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:53:39] Script called from: /d/Project/context-engineering
+[2025-09-09 15:53:39] Script path: .claude/statusline.sh
+[2025-09-09 15:53:39] Input received: 631 characters
+[2025-09-09 15:53:39] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.0001952,
+    "total_duration_ms": 2114,
+    "total_api_duration_ms": 956,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:39] Using jq for JSON parsing
+---
+[2025-09-09 15:53:39] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0.0001952, cost_ph=0.33, tokens=, tpm=, session_pct=0
+[2025-09-09 15:53:39] Statusline output completed successfully
+[2025-09-09 15:53:39] =========================================
+[2025-09-09 15:53:46] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:53:46] Script called from: /d/Project/context-engineering
+[2025-09-09 15:53:46] Script path: .claude/statusline.sh
+[2025-09-09 15:53:46] Input received: 633 characters
+[2025-09-09 15:53:46] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.0006392,
+    "total_duration_ms": 10047,
+    "total_api_duration_ms": 3131,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:46] Using jq for JSON parsing
+---
+[2025-09-09 15:53:46] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0.0006392, cost_ph=0.23, tokens=, tpm=, session_pct=0
+[2025-09-09 15:53:46] Statusline output completed successfully
+[2025-09-09 15:53:46] =========================================
+[2025-09-09 15:53:48] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:53:48] Script called from: /d/Project/context-engineering
+[2025-09-09 15:53:48] Script path: .claude/statusline.sh
+[2025-09-09 15:53:48] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:53:48] Script called from: /d/Project/context-engineering
+[2025-09-09 15:53:48] Script path: .claude/statusline.sh
+[2025-09-09 15:53:48] Input received: 634 characters
+[2025-09-09 15:53:48] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.07255745,
+    "total_duration_ms": 12006,
+    "total_api_duration_ms": 8205,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:48] Input received: 634 characters
+[2025-09-09 15:53:48] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.07255745,
+    "total_duration_ms": 12126,
+    "total_api_duration_ms": 8205,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:48] Using jq for JSON parsing
+---
+[2025-09-09 15:53:48] Extracted: dir=D:\Project\context-engineering, model=Sonnet 4, version=, git=main, context=, cost=0.07255745, cost_ph=21.54, tokens=, tpm=, session_pct=0
+[2025-09-09 15:53:48] Statusline output completed successfully
+[2025-09-09 15:53:48] =========================================
+[2025-09-09 15:53:56] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:53:56] Script called from: /d/Project/context-engineering
+[2025-09-09 15:53:56] Script path: .claude/statusline.sh
+[2025-09-09 15:53:56] Input received: 635 characters
+[2025-09-09 15:53:56] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.07390385,
+    "total_duration_ms": 19656,
+    "total_api_duration_ms": 11850,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:56] Using jq for JSON parsing
+---
+[2025-09-09 15:53:57] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:53:57] Script called from: /d/Project/context-engineering
+[2025-09-09 15:53:57] Script path: .claude/statusline.sh
+[2025-09-09 15:53:57] Input received: 644 characters
+[2025-09-09 15:53:57] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.08445124999999999,
+    "total_duration_ms": 20589,
+    "total_api_duration_ms": 18774,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:57] Input received: 644 characters
+[2025-09-09 15:53:57] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.08445124999999999,
+    "total_duration_ms": 20698,
+    "total_api_duration_ms": 18774,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:53:57] Using jq for JSON parsing
+---
+[2025-09-09 15:54:14] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:54:14] Script called from: /d/Project/context-engineering
+[2025-09-09 15:54:14] Script path: .claude/statusline.sh
+[2025-09-09 15:54:14] Input received: 635 characters
+[2025-09-09 15:54:14] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.08504645,
+    "total_duration_ms": 38167,
+    "total_api_duration_ms": 19779,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:54:14] Using jq for JSON parsing
+---
+[2025-09-09 15:54:15] ========== Status line triggered (cc-statusline v1.3.1) ==========
+[2025-09-09 15:54:15] Script called from: /d/Project/context-engineering
+[2025-09-09 15:54:15] Script path: .claude/statusline.sh
+[2025-09-09 15:54:15] Input received: 635 characters
+[2025-09-09 15:54:15] Input:
+{
+  "session_id": "cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75",
+  "transcript_path": "C:\\Users\\bt-rnd6-user\\.claude\\projects\\D--Project-context-engineering\\cf78a95d-ebfd-40a3-beaf-6a2b5b57fc75.jsonl",
+  "cwd": "D:\\Project\\context-engineering",
+  "model": {
+    "id": "claude-sonnet-4-20250514",
+    "display_name": "Sonnet 4"
+  },
+  "workspace": {
+    "current_dir": "D:\\Project\\context-engineering",
+    "project_dir": "D:\\Project\\context-engineering"
+  },
+  "version": "1.0.109",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.08504645,
+    "total_duration_ms": 38478,
+    "total_api_duration_ms": 19779,
+    "total_lines_added": 0,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-09-09 15:54:15] Using jq for JSON parsing
+---
