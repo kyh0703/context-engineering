@@ -42,21 +42,24 @@
 
 3. **병렬 연구 작업 생성** 구현을 발견하기 위해:
 
-   ```
-   Task 1 - Verify database changes:
-   Research if migration [N] was added and schema changes match plan.
-   Check: migration files, schema version, table structure
-   Return: What was implemented vs what plan specified
+   ```markdown
+   작업 1 - 데이터베이스 변경 검증:
 
-   Task 2 - Verify code changes:
-   Find all modified files related to [feature].
-   Compare actual changes to plan specifications.
-   Return: File-by-file comparison of planned vs actual
+   - 마이그레이션 [N]이 추가되었는지, 스키마 변경이 계획과 일치하는지 확인
+   - 확인항목: 마이그레이션 파일, 스키마 버전, 테이블 구조
+   - 결과: 실제 구현된 내용 vs 계획서에 명시된 내용
 
-   Task 3 - Verify test coverage:
-   Check if tests were added/modified as specified.
-   Run test commands and capture results.
-   Return: Test status and any missing coverage
+   작업 2 - 코드 변경 검증:
+
+   - [feature]과 관련된 수정된 파일을 모두 확인
+   - 실제 변경 사항을 계획서에 명시된 사양과 비교
+   - 결과: 파일별로 계획 대비 실제 변경 내역 정리
+
+   작업 3 - 테스트 커버리지 검증:
+
+   - 명시된 대로 테스트가 추가/수정되었는지 확인
+   - 테스트 명령어 실행 후 결과 캡처
+   - 결과: 테스트 실행 상태 및 누락된 커버리지 항목
    ```
 
 ### Step 2: 체계적인 검증
